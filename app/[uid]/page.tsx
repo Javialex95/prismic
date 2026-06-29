@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { asText } from "@prismicio/client";
 import { SliceZone } from "@prismicio/react";
 
+export const dynamic = "force-dynamic";
+
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
 
